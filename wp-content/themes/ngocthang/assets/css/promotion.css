@@ -1,0 +1,118 @@
+/* khuyến mãi */
+.promotion-box{
+    display: flex;
+  }
+  
+  .promotion-text-list{
+    width: 66.666%;
+  }
+  
+  .promotion-outstanding{
+    width: 33.333%;
+  }
+  
+  .promotion-title{
+    margin-bottom: 20px;
+  }
+  
+  .promotion-box h5{
+    color: #999999;
+    font-size: 22px;
+    font-family: "Quicksand-Bold";
+  }
+  
+  .promotion-text-item{
+    color: #6d6e71;
+    font-family: "Quicksand";
+    font-size: 16px;
+  }
+  
+  .outstanding-box-list{
+    display: flex;
+    padding-bottom: 30px;
+  }
+  
+  .outstanding-img{
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+  
+  .outstanding-img a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .outstanding-img img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 !important;
+  }
+  
+  .outstanding-title{
+    margin-left: 10px;
+  }
+
+  .outstanding-title-item {
+    margin: -5px 0 0 0;
+  }
+  
+  .outstanding-title-item a{
+    font-size: 18px;
+    font-family: "Quicksand-bold";
+    color: #6d6e71;
+    line-height: 27px;
+  }
+
+  .outstanding-title-item:hover a{
+    color: #6d6e71 !important;
+  }
+  
+  .outstanding-date{
+    display: flex;
+  }
+  
+  .outstanding-date-icon{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .outstanding-date-icon i{
+    color: #6d6e71;
+  }
+  
+  .outstanding-date-item{
+    color: #00b8e3;
+    line-height: 24px;
+    font-family: "Quicksand-Bold";
+    font-size: 16px;
+  }
+  
+  .outstanding-text p{
+    line-height: 24px;
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: #6d6e71;
+    margin: 0;
+  }
+  
+  .outstanding-btn{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Quicksand-bold";
+    color: #00b8e3;
+  }
+  
+  @media(max-width:1024px){
+    .promotion-box{
+        display: block;
+    }
+    .promotion-outstanding{
+        width: 100%;
+    }
+    .promotion-text-list{
+      width: 100%;
+    }
+  }

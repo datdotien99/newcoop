@@ -1,0 +1,8 @@
+.maps .maps-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.store-details .label {
+    letter-spacing: 1px !important;
+}

@@ -1,0 +1,48 @@
+
+/* style page chung */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  /* @font-face{
+    font-family: "Quicksand-Bold";
+    src: url(../font-family/static/Quicksand-Bold.ttf);
+    src: local("Quicksand-Bold"), url(../font-family/static/Quicksand-Bold.ttf) format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Quicksand";
+    src: url(../font-family/static/Quicksand-Regular.ttf);
+    src: local("Quicksand"), url(../font-family/static/Quicksand-Regular.ttf) format("truetype");
+  } */
+  
+  .box{
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .wrap{
+    padding: 15px;
+  }
+  
+  @media(max-width: 577px){
+    .wrap{
+      padding: 25px;
+    }
+  }

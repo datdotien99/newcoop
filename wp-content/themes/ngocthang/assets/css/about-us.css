@@ -1,0 +1,406 @@
+/* page về chúng tôi */
+
+section{
+    padding: 0 !important;
+  }
+  
+  .about-us{
+    background-image: url("../images/Banner 2.png ") !important;
+  }
+
+  .product{
+    background-image: url("../images/san-pham.jpg") !important;
+  }
+
+  .promotion-background{
+    background-image: url("../images/cua-hang.jpeg") !important;
+  }
+
+  .news-background{
+    background-image: url("../images/cua-hang.jpeg") !important;
+  }
+
+  .store-background{
+    background-image: url("../images/DK-dai-ly.png") !important;
+  }
+
+  .contact{
+    background-image: url("../images/DK-dai-ly-\(1\).png") !important;
+  }
+
+  .project-detail-background{
+    background-image: url("../images/cua-hang.jpeg") !important;
+  }  
+
+  .header-box{
+    background-position: bottom center;
+    background-size: cover;
+    padding: 15px;
+  }
+  
+  .header-img{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    margin: 0 0 -95px 0;
+  }
+  
+  .header-img img{
+    width: 50%;
+  }
+
+  .us{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0 0 0;
+  }
+  
+  .us-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .us-text h3{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #00b8e3;
+    font-family: 'Quicksand-Bold';
+  }
+  
+  .us-container{
+    display: flex;
+    align-items: center;
+  }
+  
+  .us-wrap-box{
+    width: 10%;
+    z-index: 1;
+  }
+  
+  .height-1{
+    height: 156.4px;
+  }
+  
+  .height-2{
+    height: 196.4px;
+    padding-top: 16px;
+  }
+  
+  .us-wrap-icon{
+    width: 150px;
+    height: 150px;
+  }
+  
+  .us-text-container{
+    width: 90%;
+    max-width: 90%;
+    
+  }
+  
+  .us-text-item{
+    padding: 22px 22px 22px 60px;
+    background-color: #00b8e3;
+    border-radius: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    font-family: 'Quicksand';
+  }
+  
+  .item-color-2{
+    background-color: #006484;
+  }
+  .item-color-3{
+    background-color: #89ce60;
+  }
+  
+  .information{
+    background-image: url('../images/background-img-1-vct.png');
+    background-position: center;
+    background-size: cover;
+  }
+  .information-box{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  p{
+    text-align: center;
+    margin-bottom: 25.5px;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Quicksand';
+  }
+  
+  p strong{
+    color: #006484;
+    font-family: 'Quicksand';
+  }
+  
+  p b{
+    color: #006484;
+    font-family: 'Quicksand';
+  }
+  
+  .core-value-box{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wrap h4{
+    font-size: 36px;
+    font-family: 'Quicksand-bold';
+    color: #00b8e3;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .htx img{
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .farm{
+    display: flex;
+    justify-content: center;
+    background-color: #efeff0;
+  }
+  
+  .farm-box{
+    padding: 10px;
+  }
+  
+  .farm-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .farm-wrap{
+    /* width: 25% */
+    height: 180px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  
+  .farm-item{
+    text-align: center;
+  }
+  
+  .farm-item p{
+    margin: 0;
+  }
+  
+  .farm-item span{
+    font-size: 50px;
+    color: #89ce60;
+    font-family: 'Quicksand-bold';
+  }
+  
+  .hitory{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hitory-box{
+    padding: 10px;
+  }
+  
+  .hitory-list{
+    width: 100%;
+    display: flex;
+  }
+  
+  .hitory-empty-block{
+    width: 50%;
+  }
+  .hitory-item{
+    width: 50%;
+    padding: 30px;
+  }
+  
+  .hitory-text p{
+    font-size: 16px;
+    text-align: start;
+  }
+  
+  .text-end p{
+    text-align: end;
+  }
+  
+  .hitory-img{
+    margin-bottom: 20px;
+  }
+  
+  .hitory-img img{
+    margin: 0px 0px 0px -58px;
+    width: 80%;
+  }
+  
+  .hitory-img-2{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+  }
+  .hitory-img-2 img{
+    margin: 0 -11% 0 0;
+    width: 80%;
+  }
+  
+  .list-margin{
+    margin-top: -167px;
+    margin-bottom: -167px;
+  }
+  
+  .ever-milk{
+    background-color: #6EEDFF;
+  }
+  .ever-milk-box{
+    padding: 15px 0 0 0;
+    position: relative;
+  }
+  
+  .ever-milk-box h4{
+    color: #006484;
+  }
+  
+  .box-background{
+    background-color: #00b8e3;
+    padding: 0;
+  }
+  
+  .box-background h4{
+    color: #fff;
+  }
+  
+  .ever-milk-list{
+    display: flex;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    bottom: -15px;
+  }
+  
+  .milk-img-left{
+    width: 50%;
+  }
+  
+  .milk-img-left img{
+    max-width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .milk-img-right{
+    width: 50%;
+  }
+  
+  .milk-img-box-left{
+    display: flex;
+    justify-content: left;
+  }
+  
+  .milk-img-box-right{
+    display: flex;
+    justify-content: right;
+  }
+  
+  .milk-img-right img{
+    max-width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .htx{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  @media(max-width: 1024px){
+    .header-img{
+      margin: 0;
+    }
+  
+    .us-wrap-icon{
+        width: 150%;
+        display: flex;
+    }
+  
+    .milk-img-right img{
+        max-width: 60%;
+    }
+  
+    .milk-img-left img{
+        max-width: 60%;
+    }
+  }
+  
+  @media(max-width: 767px){
+    .header-img{
+        padding: 0;
+    }
+    .header-img img{
+        width: 100%;
+    }
+  
+    .farm-wrap{
+        width: 50%;
+    }
+  
+    .us-text-item{
+        padding: 15px 15px 15px 35px;
+    }
+  
+    .hitory-list{
+        display: block;
+    }
+    .hitory-empty-block{
+        width: 0;
+    }
+    .hitory-item{
+        width: 100%;
+    }
+    .hitory-img img{
+        margin: 0;
+        width: 100%;
+    }
+  
+    .hitory-img-2 img{
+        margin: 0;
+        width: 100%;
+    }
+    .list-margin{
+        margin: 0;
+    }
+  }
+  
+  @media(max-width: 576px){
+    .us-text h3 {
+        font-size: 36px;   
+    }
+    .us-container{
+        margin-bottom: 30px;
+    }
+    .ever-milk-list{
+        bottom: -6px;
+    }
+    .farm-item span{
+      font-size: 28px;
+    }
+    .farm-wrap{
+      height: auto !important;
+      align-items: baseline !important;
+    }
+  
+    .core-value-box{
+      padding: 0;
+    }
+  }
